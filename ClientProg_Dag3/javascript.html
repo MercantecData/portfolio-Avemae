@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet"> 
+<script src="script.js"></script>
 <html>
     <head>
         <title>
@@ -17,22 +18,24 @@
             <div class="content">
                 <div>
                     <h1>
-                        Home
+                        JavaScript
                     </h1>
                 </div>
                 <div class="content-text">
                     <h2>
-                        Post
+                        JavaScript exercises
                     </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa suscipit mollitia, fugit accusantium, saepe deserunt nisi nulla nostrum eius perspiciatis animi minima quidem at quibusdam fugiat exercitationem culpa eaque libero!
+                    <p id="change-this-text">
+                        Some text.
                     </p>
+                    <button class="button" onclick="ChangeText()">
+                        Click me!
+                    </button>
                     <p>
-                        Vero, dicta perspiciatis! Reiciendis ad ex repellat id, aut temporibus, illum quis eligendi autem dicta dolor! Odio doloremque voluptas ipsam error fugit!
+                        Paragraph One added with HTML.
                     </p>
-                    <p>
-                        Quas repudiandae rerum quos temporibus aperiam nemo sapiente, sint dignissimos accusamus tempora! Quis cumque quibusdam repellat rem maxime perferendis, harum iusto illo. Necessitatibus reiciendis molestiae sit repellat quos neque tenetur, impedit eos!
-                    </p>
+                    <p id="paragraph-with-javascript"></p>
+                    <script>AddElement();</script>
                 </div>
             </div>
             <div class="footer">
