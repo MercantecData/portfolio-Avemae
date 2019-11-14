@@ -10,10 +10,11 @@ html {
 }
 .grid {
     display: grid;
-    grid-template-columns: 350px auto 350px;
-    grid-template-rows: 50px auto 50px;
+    grid-template-columns: 28vw auto 28vw;
+    grid-template-rows: 50px 80px auto 50px;
     grid-template-areas: 
     "navigation navigation navigation"
+    "blank page-name blank2"
     "blank content blank2"
     "footer footer footer";
     height: 100vh;
@@ -36,19 +37,22 @@ html {
 .navigation a:hover {
     background-color: rgb(15, 15, 15);
 }
-.content {
-    grid-area: content;
+.page-name {
+    grid-area: page-name;
     padding: 20px;
     text-align: center;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
-.content-text {
+.content {
+    text-align: center;
+    margin-top: 40px;
+    grid-area: content;
     background-color: rgba(31, 31, 30, 0.3);
     padding-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 20px;
 }
 .content h2 {
-    margin-top: 40px;
     padding-top: 10px;  
 } 
 .content p {
@@ -76,7 +80,9 @@ html {
 h1 {
     font-family: "Amatic SC", bold;
     font-size: 50px;
-    
+}
+h3 {
+    margin-top: 15px;
 }
 .button {
     background-color: rgb(31, 31, 30);
@@ -85,6 +91,7 @@ h1 {
     display: inline-block;
     margin: 5px;
     border: 1px solid rgb(15, 15, 15);
+    padding: 3px;
 }
 .button:hover {
     background-color: rgb(15, 15, 15);
