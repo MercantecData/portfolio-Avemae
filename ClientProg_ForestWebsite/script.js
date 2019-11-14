@@ -27,3 +27,16 @@ function AddElementToSite()
     var textOnSite = document.getElementById("text-field-element").value;
     document.getElementById("insert-text-field-text").innerHTML += textOnSite+"</br>";
 }
+
+function randomImage(){
+    var images = [
+     'winter_trees.jpg',
+     'red_trees.jpg',
+     'trees.jpg',
+     'foggy_trees.jpg'];
+    var size = images.length;
+    var x = Math.floor(size * Math.random());
+    var element = document.getElementsByClassName('html');
+    element[0].style["background-image"] = "url("+ images[x] + ")";
+}
+document.addEventListener("DOMContentLoaded", randomImage);
