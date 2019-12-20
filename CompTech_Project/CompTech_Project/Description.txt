@@ -1,0 +1,13 @@
+Hvad skal det handle om? 
+En menu med forskellige apps i sig. Jeg vil prøve at udvikle sværere og sværere apps for at udfordre mig selv.
+Jeg tænker på to nemmere apps og en svær til at slutte opgaven med. Det kunne være fedt at lave Snake-spillet f.eks.
+
+Hvilken platform?
+C#. Jeg vil blive bedre til C#, så derfor bruger jeg dette programmeringssprog. 
+Af fag kommer jeg nok mindst til at inddrage Grundlæggende Programmering over mit projekt, der kommer måske flere fag på senere.
+
+Hvad skal der til for at din projekt kan blive en success?
+Jeg vil prøve at få 2-3 mini-apps i mit projekt. Hvis jeg kan dette, kan det vel kaldes for en success.
+
+Hvor langt regner du med at nå inden slutningen af mandag?
+En færdig idé.
